@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/devinamatthews/tblis/archive/4de1919.tar.gz
-  sha256: 85b72884022edd2612e3a0b3ed12aa6237d3989b581091d21f58124a7450aaeb
+  url: https://github.com/MatthewsResearchGroup/tblis/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: b46c257f27eaa25dabb09d5cb7bd28f77a86519f0f32262f3b687ffc41c0d62b
 
 build:
   skip: true  # [win]
